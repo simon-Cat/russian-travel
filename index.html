@@ -8,16 +8,29 @@
       content="width=device-width, initial-scale=1.0 user-scalable=yes"
     />
     <title>Путешестивя по России</title>
-    <link rel="stylesheet" href="vendor/fonts/fonts.css">
+    <link rel="stylesheet" href="vendor/fonts/fonts.css" />
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body class="page">
     <header class="header">
-      <img src="images/__logo.svg" alt="Логотип" class="header__logo"/>
+      <img src="images/__logo.svg" alt="Логотип" class="header__logo" />
       <ul class="header__lang">
         <a href="#" class="header__lang-link"><li>Ru</li></a>
         <a href="#" class="header__lang-link"><li>En</li></a>
       </ul>
     </header>
+    <section class="lead">
+      <h1 class="lead__title">Путешествия по России</h1>
+      <p class="lead__subtitle">
+        Настоящая страна не в выпусках новостей, а здесь.
+      </p>
+      <picture>
+        <source srcset="images/width_768/lead__image_width_768.jpg" media="(min-width:380px) and (max-width:1023px)"/>
+        <source srcset="images/width_1024/lead__image_width_1024.jpg" media="(min-width:1024px) and (max-width:1279px)"/>
+        <source srcset="images/width_1280/lead__image_width_1280.jpg" media="(min-width:1280px)"/>
+        <img class="lead__image" src="images/width_320/lead__image_width_320.jpg" alt="Девушка лежит в вагоне"/>
+      </picture>
+      <p class="lead__caption">ваша полка — верхняя</p>
+    </section>
   </body>
 </html>
