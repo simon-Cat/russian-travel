@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body class="page">
-    <header class="header">
+    <header class="page__header header">
       <img src="images/__logo.svg" alt="Логотип" class="header__logo" />
       <ul class="header__lang">
         <a href="#" class="header__lang-link"><li>Ru</li></a>
         <a href="#" class="header__lang-link"><li>En</li></a>
       </ul>
     </header>
-    <section class="lead">
+    <section class="page__lead lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
@@ -60,11 +60,255 @@
       </p>
       <ul class="intro__list">
         <li><span class="intro__list-item">Часовых поясов</span> 11</li>
-        <li><span class="intro__list-item">Объектов природного наследия ЮНЕСКО</span> 12
-        <li><span class="intro__list-item">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-        <li><span class="intro__list-item">Природных заповедников</span> 105</li>
+        <li>
+          <span class="intro__list-item"
+            >Объектов природного наследия ЮНЕСКО</span
+          >
+          12
+        </li>
+        <li>
+          <span class="intro__list-item"
+            >Объектов культурного наследия ЮНЕСКО</span
+          >
+          16
+        </li>
+        <li>
+          <span class="intro__list-item">Природных заповедников</span> 105
+        </li>
         <li><span class="intro__list-item">Аэропортов</span> 241</li>
       </ul>
     </section>
+    <div class="page__photo-grid photo-grid">
+      <div class="photo-grid__item">
+        <picture>
+          <source
+            srcset="images/width_768/photo-grid__image-1_width_768.jpg"
+            media="(min-width:380px) and (max-width:1023px)"
+          />
+          <source
+            srcset="images/width_1024/photo-grid__image-1_width_1024.jpg"
+            media="(min-width:1024px) and (max-width:1279px)"
+          />
+          <source
+            srcset="images/width_1280/photo-grid__image-1_width_1280.jpg"
+            media="(min-width:1280px)"
+          />
+          <img
+            src="images/width_320/photo-grid__image-1_width_320.jpg"
+            class="photo-grid__item"
+            alt="Вид на лес и море из окна вагона"
+          />
+        </picture>
+      </div>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-2_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-2_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-2_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-2_width_320.jpg"
+          class="photo-grid__item"
+          alt="Горы в снегу"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-3_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-3_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-3_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-3_width_320.jpg"
+          class="photo-grid__item"
+          alt="Поле ранним утром"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-4_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-4_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-4_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-4_width_320.jpg"
+          class="photo-grid__item"
+          alt="Лес в тумане"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-5_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-5_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-5_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-5_width_320.jpg"
+          class="photo-grid__item"
+          alt="Колесо автомобиля на льду замершего озера"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-6_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-6_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-6_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-6_width_320.jpg"
+          class="photo-grid__item"
+          alt="Песчанный пляж"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-7_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-7_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-7_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-7_width_320.jpg"
+          class="photo-grid__item"
+          alt="Горы с заснеженными вершинами"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-8_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-8_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-8_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-8_width_320.jpg"
+          class="photo-grid__item"
+          alt="Знак пешеходного перехода на фоне волнорезов"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-9_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-9_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-9_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-9_width_320.jpg"
+          class="photo-grid__item"
+          alt="Горы в тумане"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-10_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-10_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-10_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-10_width_320.jpg"
+          class="photo-grid__item"
+          alt="Горы"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-11_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-11_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-11_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-11_width_320.jpg"
+          class="photo-grid__item"
+          alt="Заснеженные скалы"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="images/width_768/photo-grid__image-12_width_768.jpg"
+          media="(min-width:380px) and (max-width:1023px)"
+        />
+        <source
+          srcset="images/width_1024/photo-grid__image-12_width_1024.jpg"
+          media="(min-width:1024px) and (max-width:1279px)"
+        />
+        <source
+          srcset="images/width_1280/photo-grid__image-12_width_1280.jpg"
+          media="(min-width:1280px)"
+        />
+        <img
+          src="images/width_320/photo-grid__image-12_width_320.jpg"
+          class="photo-grid__item"
+          alt="Горы в тумане"
+        />
+      </picture>
+    </div>
   </body>
 </html>
