@@ -3,7 +3,7 @@
     margin: 32px 16px 25px;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:nth-child(2) {
     margin-bottom: 0;
     margin-top: 0;
 }
