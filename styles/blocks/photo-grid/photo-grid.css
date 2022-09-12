@@ -1,3 +1,6 @@
 .photo-grid {
     min-width: 288px;
+    display: grid;
+    grid-template-columns: minmax(288px, auto);
+    row-gap: 12px;
 }
