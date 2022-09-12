@@ -1,0 +1,9 @@
+.place__paragraph {
+    min-width: 288px;
+    margin: 32px 16px 25px;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+    margin-top: 0;
+}
