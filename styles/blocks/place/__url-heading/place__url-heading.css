@@ -12,3 +12,9 @@
     line-height: 170%;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .place__url-heading {
+    line-height: 100%;
+  }
+}

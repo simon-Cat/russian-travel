@@ -7,3 +7,9 @@
     margin-bottom: 73px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .page__place {
+    margin-bottom: 80px;
+  }
+}
