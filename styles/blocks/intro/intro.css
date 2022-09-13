@@ -2,8 +2,15 @@
   min-width: 288px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .intro {
     min-width: 720px;
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-width: 690px;
+    width: 100%;
   }
 }
