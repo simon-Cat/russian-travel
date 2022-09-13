@@ -1,4 +1,10 @@
 .lead {
-    min-width: 320px;
-    min-height: 406px;
+  min-width: 320px;
+  min-height: 406px;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    min-width: 768px;
+  }
 }

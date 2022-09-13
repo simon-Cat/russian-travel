@@ -1,7 +1,15 @@
 .cover {
-    min-width: 320px;
-    min-height: 200px;
-    background-image: url(../../../images/width_320/cover__image_width_320.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-width: 320px;
+  min-height: 200px;
+  background-image: url(../../../images/width_320/cover__image_width_320.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
 }

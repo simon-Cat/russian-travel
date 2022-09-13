@@ -4,3 +4,9 @@
   line-height: 26.08px;
   margin: 0 0 34px;
 }
+
+@media screen and (min-width: 768px) {
+  .intro__text {
+    margin-bottom: 33px;
+  }
+}

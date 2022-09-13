@@ -1,6 +1,14 @@
 .photo-grid {
-    min-width: 288px;
-    display: grid;
-    grid-template-columns: minmax(288px, auto);
-    row-gap: 12px;
+  min-width: 288px;
+  display: grid;
+  grid-template-columns: minmax(288px, auto);
+  row-gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    min-width: 720px;
+    grid-template-columns: repeat(2, 352px);
+    gap: 16px;
+  }
 }
