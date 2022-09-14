@@ -1,21 +1,2 @@
 .page__intro {
-  margin: 0 16px 64px;
-}
-
-@media screen and (min-width: 768px) {
-  .page__intro {
-    margin: 0 24px 88px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page__intro {
-    margin: 0 0 92px 48px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page__intro {
-    margin: 0 0 92px 148px;
-  }
 }

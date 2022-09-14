@@ -1,17 +1,2 @@
-@media screen and (min-width: 768px) {
-  .page__places {
-    margin: 0 24px 90px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page__places {
-    margin: 0 48px 92px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page__places {
-    margin: 0 148px 92px;
-  }
+.page__places {
 }

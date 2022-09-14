@@ -1,25 +1,3 @@
 .footer {
-  min-width: 186px;
-  min-height: 310px;
-}
 
-@media screen and (min-width: 768px) {
-  .footer {
-    min-width: 720px;
-    min-height: 18px;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer {
-    min-width: 928px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer {
-    min-width: 1184px;
-  }
 }

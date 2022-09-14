@@ -1,21 +1,15 @@
 .page__lead {
-  margin: 0 0 64px;
+  margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
   .page__lead {
-    margin: 0 0 88px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .page__lead {
-    margin: 0 48px 92px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
     margin: 0 auto 92px;
   }
 }

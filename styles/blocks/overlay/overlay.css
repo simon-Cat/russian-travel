@@ -1,16 +1,6 @@
 .overlay {
-  background-color: rgba(42, 44, 47, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.3;
-  z-index: -1;
-  transition: opacity .3s linear;
   
 }
 
 .cover:hover .overlay {
-  opacity: 0.8;
 }

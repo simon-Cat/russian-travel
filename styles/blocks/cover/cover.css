@@ -1,28 +1,2 @@
 .cover {
-  min-width: 320px;
-  min-height: 200px;
-  background-image: url(../../../images/width_320/cover__image_width_320.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-@media screen and (min-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    max-width: 1184px;
-    min-height: 740px;
-  }
 }
