@@ -1,2 +1,21 @@
-.place {
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+  }
 }
