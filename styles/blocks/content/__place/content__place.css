@@ -1,19 +1,19 @@
-.page__place {
+.content__place {
   margin-bottom: 50px;
 }
 
-.page__place:last-of-type {
+.content__place:last-of-type {
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .page__place {
+  .content__place {
     margin-bottom: 73px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .page__place {
+  .content__place {
     margin-bottom: 80px;
   }
 }

@@ -1,21 +1,21 @@
-.page__places {
-  margin-bottom: 66px;
+.content__cover {
+  margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .page__places {
-    margin: 0 24px 90px;
+  .content__cover {
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .page__places {
-    margin: 0 48px 92px;
+  .content__cover {
+    margin-bottom: 92px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .page__places {
+  .content__cover {
     margin: 0 auto 92px;
   }
 }

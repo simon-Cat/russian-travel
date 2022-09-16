@@ -10,12 +10,6 @@
 
 @media screen and (min-width: 1024px) {
   .page__footer {
-    margin: 0 48px 24px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page__footer {
     margin: 0 auto 24px;
   }
 }

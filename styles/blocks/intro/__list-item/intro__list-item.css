@@ -4,4 +4,6 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
