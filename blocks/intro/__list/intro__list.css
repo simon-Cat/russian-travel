@@ -9,9 +9,8 @@
   line-height: 18px;
 }
 
-/* макс шир */
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .intro__list {
     max-width: 690px;
   }
-} */
+}

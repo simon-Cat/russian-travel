@@ -14,9 +14,8 @@
   }
 }
 
-/* макс шир */
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .intro__title {
     max-width: 690px;
   }
-} */
+}
