@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
+
 <img src="https://github.com/simon-Cat/russian-travel/assets/110557132/4693fb64-3ea4-4235-9960-18c519a51bdd" alt="Сайт Путешествие по России">
+https://simon-cat.github.io/russian-travel/
 
 ## Описание
 
@@ -17,7 +19,4 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS 3" alt="CSS 3" width="40" height="40"/>&nbsp;
 </div>
 
-## Ссылка на сайт
-
-Посетите наш сайт прямо сейчас пройдя по ссылке: https://simon-cat.github.io/russian-travel/ .
 
